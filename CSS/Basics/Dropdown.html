@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Menu Animation</title>
+    <style>
+        .dropdown {
+            position: relative;
+            left: 40%;
+            top: 100px;
+            display: inline-block;
+        }
+
+        button{
+            height: 50px;
+            width: 300px;
+        }
+
+         .dropdown-menu{
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 300px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            transform: translateY(-100%);
+            opacity: 0;
+             visibility: hidden; 
+            transition: transform 0.3s ease,opacity 0.3s ease, visibility 0.3s;
+        } 
+
+        .dropdown:hover .dropdown-menu{
+            transform: translateY(0);
+            opacity: 1;
+            visibility: visible;
+        } */
+        .dropdown-item{
+            padding: 10px;
+            color: #333;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-item:hover{
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="dropdown">
+        <button>Dropdown</button>
+        <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Item 1</a>
+            <a href="#" class="dropdown-item">Item 2</a>
+            <a href="#" class="dropdown-item">Item 3</a>
+        </div>
+    </div>
+    
+</body>
+</html>

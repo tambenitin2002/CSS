@@ -1,0 +1,13 @@
+div p{
+    color: red;
+}
+div>p{
+    background-color: black;
+}
+
+div+p{
+    color: green;
+}
+div~p{
+    background-color: pink;
+}

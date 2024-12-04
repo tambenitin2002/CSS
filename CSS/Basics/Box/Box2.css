@@ -1,0 +1,25 @@
+div{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+:root{
+    --bcg: rgb(9,242, 44);
+
+    --border:var(1px solid black);
+}
+
+#a{
+    background-color: var(--bcg);
+}
+
+#b{
+    background-color: var(--bcg);
+    border: var(--border);
+}
+
+#c{
+    background-color:var(--bcg);
+    border: var(--border);
+}

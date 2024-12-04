@@ -1,0 +1,39 @@
+#gp{
+    height: 600px;
+    width: 600px;
+    background-color: red;
+}
+
+#gp>#parent
+{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+}
+
+#gp #child1
+{
+    height: 100px;
+    width: 200px;
+    background-color: green;
+}
+
+#gp>#parent>#child1+#child2{
+    height: 100px;
+    width: 200px;
+    background-color:  orange;
+} 
+
+#gp>#parent>#child1~#child3{
+    height: 100px;
+    width: 200px;
+    background-color:  black;
+}
+
+   #child3{ 
+    background-color: rgb(red, green, blue);
+}
+
+/* #gp{
+    background-color: black;
+/* }   

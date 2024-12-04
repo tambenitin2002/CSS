@@ -1,0 +1,17 @@
+h1{
+    color: blue;
+    text-align: center;
+    text-indent: 50px;
+    text-decoration: overline;
+    text-decoration-style: double;
+    text-decoration-color: red;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px black;
+}
+p{
+    text-align: justify;
+    text-wrap: wrap;
+}
+a{
+    text-decoration: none;
+}

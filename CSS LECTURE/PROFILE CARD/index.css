@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+
+    height: 100vh;
+    width:100%;
+    /* background: #FEFCFF; */
+    /* background: #C5E8EE; */
+    background: whitesmoke;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+div{
+   margin: 10px;
+   padding: 10px;
+}
+.box-card{
+   height: auto;
+   width: 300px;
+   /* background: #C5E8EE; */
+   background: whitesmoke;
+   box-shadow:0px 0px 20px black;
+   margin: 10px;
+   padding: 10px;
+   justify-content: center;
+   align-items: center;  
+}
+img{
+    border: 4px solid white;
+    border-radius:50% ;
+    box-shadow: 0 0 7px black;
+    display: flex;
+    justify-content: center;
+    text-align: center;  
+}
+.img-block{
+    
+   display:flex;
+   justify-content: center;   
+}
+.contents{
+   text-align: center;
+}
+div p{
+    color: gray;
+  
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+button{
+    text-align: center;
+    font-weight: bold;
+    border: transparent;
+    padding: 5px 10px 5px 10px;
+}
+button:hover{
+   
+    box-shadow: inset 0px 0px 4px black;
+}
+.icons{
+     
+     display: flex;
+     justify-content: space-around;
+}
+.icons i{
+    border-radius: 50%;
+    border: 4px solid white;
+    font-size:20px;
+    background: white;
+}
+.icons i:hover{
+    cursor: pointer;
+}
+.like-comment-share{
+    display: flex;
+    justify-content: space-around; 
+    
+}
+.like-comment-share i{
+    border-right:2px solid black ;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+i p{
+    font-size: 10px;
+    color: black;
+    font-weight: 300;
+    padding-right: 7px;
+}
+.like-comment-share i:hover{
+    color: #FF009F;
+   cursor: pointer; 
+}
+
+
+
+
+    

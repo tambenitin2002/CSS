@@ -1,0 +1,27 @@
+.container{
+    width:50%;
+    border: 2px solid red;
+}
+
+.c1{
+    width: 50%;
+    border: 2px solid green;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    /* height: 50vh;
+    width: 50vw; */
+    font-size: 40px;
+    background-color: aqua;
+}
+
+#para{
+    /* font-size: 4em; */
+    font-size: 4rem;
+}

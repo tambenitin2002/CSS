@@ -1,0 +1,21 @@
+img{
+    height: 100px;
+    width: 100px;
+}
+img1{
+    float: right;
+}
+
+img2{
+    float: right;
+    clear: right;
+}
+p{
+    height: 100%;
+    width: 100%;
+    border: 2px solid red;
+    /* overflow: hidden;
+    overflow: scroll ;
+    overflow: visible; */
+    overflow: auto;
+}

@@ -1,0 +1,24 @@
+/* #gp{ 
+    height: 500px;
+    width: 500px;
+    background-color: darkred;
+} */
+ #parent{
+    height: 200px;
+    width: 200px;
+    background-color: chartreuse;
+ }  
+
+/* #gp>#parent
+{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+} */
+
+#p>#child1{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+
+}

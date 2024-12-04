@@ -1,0 +1,11 @@
+p::first-letter{
+    font-size: 100px;
+}
+p::selection{
+    background: black;
+    color: red;
+}
+::marker{
+    color: red;
+    font-size: 30px;
+}

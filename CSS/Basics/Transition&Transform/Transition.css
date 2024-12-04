@@ -1,0 +1,35 @@
+img{
+    height: 200px;
+    width: 200px;
+}
+
+img:hover{
+    /* border-radius: 100%; */
+    /* transition-duration: 1s;
+    transition-delay: 1s;
+    transition-timing-function: linear;*/
+    transition: all 3s linear 1s;
+     
+      /* transform: rotatex(45deg); 
+     transform: rotateY(76deg);
+     transform: rotateZ(76deg); */
+
+     /transform: scale(-0.5); */
+     /* transform: translate(200px,300px); */move to img on downwords side */
+      /* transform: skew(120deg); rotate the img */
+     transform: scale(1.1);
+     /* transition: all linear ;
+     overflow: hidden; */ 
+
+     /* transform:perspective(300px) rotate3d(10, 5,9deg) */ */
+    /*/ transform: perspective(300px) translate3d(100px,100px,100px) click on img and img zoom out slowly */
+      /* transform: perspective(300px)  rotate3d(2,4,6,30deg); click on img and img zoom out fastly*/
+     scale: 3;
+}
+
+.contain{
+    height: 200px;
+    width: 200px;
+    
+    /* overflow: hidden; /*click on img and img zoom out */
+}

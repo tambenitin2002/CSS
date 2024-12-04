@@ -1,0 +1,313 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    margin: 0;
+} */
+section {
+    display: flex;
+    
+    display: block;
+  
+}
+article {
+    display: flex;
+    display: block;
+}
+center {
+    display: block;
+    text-align: -webkit-center;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+/* :host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em / 1 "Font Awesome 6 Free";
+} */
+/* :host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em / 1 "Font Awesome 6 Brands";
+} */
+
+nav {
+    display: block;
+}
+div {
+    display: block;
+}
+.navbar {
+    color: #fff;
+    width: 100%;
+}
+.navart, .navbar {
+    background-color: #000;
+    height: auto;
+}
+nav {
+    display: block;
+}
+h1 {
+    display: block;
+    font-size: 10em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.navsec1 h1 {
+
+    height: auto;
+    width: 30px;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(red, #000, #fff, blue, green, orange, purple, pink, olive);
+    -webkit-background-clip: text;
+    background-position: 50%;
+    font-weight: 700;
+    font-size: 80px;
+    text-align: center;
+}
+.navsec2 {
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-weight: 300;
+    width: 80%;
+}
+.navsec3 {
+    font-size: 30px;
+    width: 0;
+}
+.navsec2, .navsec3 {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.fa-brands, .fab {
+    font-weight: 400;
+    font-family: "Font Awesome 6 Brands";
+}
+.fa-twitter:before {
+    content: "\f099";
+}
+
+
+.navart {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 90%;
+}
+.Header {
+    background-color: #f0f8ff;
+}
+.Headersec {
+    background: url(https://st4.depositphotos.com/1662991/31353/i/450/depositphotos_313539636-stock-photo-handsome-young-male-software-developer.jpg);
+    background-position: 50%;
+    background-position-x: 0;
+    background-position-y: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+}
+.Headersec h1 {
+    background: -webkit-image-set("https://i.gifer.com/Vo2o.gif");
+    -webkit-background-clip: text;
+    background-position: 50%;
+    font-size: 50px;
+    padding-top: 10px;
+}
+.Headersec h2 {
+    background: -webkit-image-set("https://cdn.dribbble.com/users/8156988/screenshots/16260376/media/d72c6c8fe5a5cded14961afbe4590e2d.gif");
+    -webkit-background-clip: text;
+    background-position: 50%;
+    font-size: 40px;
+}
+.Headersec button {
+    background: transparent;
+    border: 1px solid red;
+    color: #000;
+    padding: 10px;
+}
+.Headersec button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.Headersec h1, .Headersec h2 {
+    -webkit-text-fill-color: transparent;
+    color: #000;
+}
+.Maindiv {
+    background-color: #f0f8ff;
+    flex-wrap: wrap;
+    height: 400px;
+    justify-content: space-around;
+}
+
+.Maindiv p {
+    font-size: 16px;
+    justify-content: center;
+    padding-top: 10px;
+    text-align: justify;
+}
+.Maindiv, .Maindiv p {
+    align-items: center;
+    display: flex;
+}
+.Maindiv button {
+    background-color: gray;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #000;
+    color: #fff;
+    padding: 10px;
+}
+.sec {
+    background-color: #3d3d3d;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+:-webkit-any(article, aside, nav, section) h1 {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+
+.fa, .fa-brands, .fa-classic, .fa-regular, .fa-sharp, .fa-solid, .fab, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display, inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+.secsec {
+    background-color: #3d3d3d;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: auto;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.secsec .secdiv {
+    background: gray;
+    border: 1px solid #000;
+    color: #fff;
+    height: 70px;
+    justify-content: center;
+    width: 350px;
+}
+.secsec, .secsec .secdiv {
+    align-items: center;
+    display: flex;
+}
+ruby {
+    text-indent: 0px;
+    display: ruby;
+}
+.secdiv ruby {
+    font-size: 20px;
+    font-weight: bolder;
+}
+rt {
+    text-indent: 0px;
+    line-height: normal;
+    text-emphasis: none;
+}
+ruby > rt {
+    display: ruby-text;
+    font-size: 50%;
+    text-align: start;
+}
+.secdiv ruby rt {
+    font-size: 17px;
+    font-weight: 100;
+}
+.footersec {
+    background-color: #000;
+    color: #f5f5f5;
+    gap: 30px;
+    height: 300px;
+}
+.footdiv2, .footersec {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.footdiv2 {
+    width: 500px;
+}
+.footdiv2, .footersec {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.footdiv2 h2 button {
+    background: grey;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+.footdiv2 h2 button a {
+    color: #fff;
+    text-decoration: none;
+}
+.footart {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.fa-linkedin:before {
+    content: "\f08c";
+}
+
+@media screen and (max-width: 950px){
+.navart, .navsec2 {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+}
+@media screen and (max-width: 950px){
+.navart {
+    background-color: #000;
+    height: auto;
+    text-align: center;
+    width: 90%;
+}
+}

@@ -1,0 +1,46 @@
+[target]
+{
+    text-decoration: none;
+}
+
+[target="_blank"]{
+    text-decoration: none;
+    color: red;
+}
+
+ #para::first-letter{ 
+    color: red;
+    font-size: 50px;
+    font-weight: 1000;
+ }
+
+#para::first-line{
+    background-color: black;
+    color: red;
+    font-size: 20px;
+}
+
+#para::selection{
+    background-color: black;
+    color: oranged;
+    font-size: 20px;
+    user-select: none;
+}
+
+li{
+    color: red;
+}
+
+li::marker
+{
+    color: red;
+}
+
+li::before{
+    content: 👈;
+}
+
+li::after{
+    content: ✓;
+}
+ 

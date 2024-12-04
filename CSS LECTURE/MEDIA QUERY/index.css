@@ -1,0 +1,30 @@
+div{
+    height: auto;
+    width:100%;
+    background: black;
+    color:white;
+    text-align: center;
+    font-size: 50px;
+    display:none;
+
+}
+@media screen  and (max-width:300px){
+    #box1{
+        display: block;
+    }
+}
+@media (min-width:301)  and (max-width:700px){
+    #box2{
+        display: block;
+    }
+}
+@media (min-width:701)  and (max-width:1000px){
+    #box3{
+        display: block;
+    }
+}
+@media (min-width:1001)  and (max-width:1400px){
+    #box4{
+        display: block;
+    }
+}

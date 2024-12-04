@@ -1,0 +1,40 @@
+section{
+    line-height: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 330px;
+    border: 3px solid red;
+    background-color: black;
+    
+}
+.box3{
+    display: flex;
+    align-items: baseline;
+    gap: 150px;
+}
+p{
+    color:purple;
+    text-align: justify;
+    line-height: 1.5;
+}
+button{
+    padding: 10px;
+}
+.box5{
+    display: flex;
+    
+    justify-content: flex-start;
+    gap: 80px;
+    }
+.right2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+h3,h1{
+    color: brown;
+}
+ img{
+    -webkit-mask-image: linear-gradient( to top,transparent,black);
+} 

@@ -1,0 +1,14 @@
+section{
+    height: auto;
+    width: 100%;
+    display: flex;
+    gap:10px;
+    overflow-y: hidden;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+section::-webkit-scrollbar{
+    display:none;
+}

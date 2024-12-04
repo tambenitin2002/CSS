@@ -1,0 +1,15 @@
+#p1{
+    color: crimson;
+}
+.pc1{
+    background-color: yellowgreen;
+}
+p{
+    font-size: 50px;
+}
+#p1,.hc1,h3{
+    text-align: center;
+}
+*{
+    background-color: yellow;
+}

@@ -1,0 +1,36 @@
+a:visited{
+    color: orange;
+}
+a:active{
+    color: black;
+}
+a:link{
+    color: red;
+}
+h1:hover{
+    color: teal;
+}
+input:focus{
+    outline: none;
+    caret-color: blueviolet;
+}
+
+/* ************************************************************ */
+/* child tags */
+li:first-child{
+    color: red;
+}
+li:last-child{
+    color: purple;
+}
+li:first-of-type{
+    background-color: black;
+}
+li:last-of-type{
+    background-color: burlywood;
+
+}
+li:nth-child(2){
+    color: teal;
+}
+            

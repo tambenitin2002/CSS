@@ -1,0 +1,43 @@
+/* a:link{
+    color:grey
+} */
+
+/* a:visited{
+    color: rgb(red, green, blue);
+}
+
+a:active{
+    color: green;
+}
+
+input:focus{
+    background-color: yellow;
+}
+
+li:first-child{
+    background-color: green;
+}
+
+li:last-child{
+    background-color: green;
+}
+
+li:nth-child(5){
+    /* background-color: green;
+}
+
+li:nth-of-type(3n+3)
+{
+    background-color: green;
+} */ */
+
+button{
+    background-color: blue;
+    padding: 8px;
+    color: white;
+}
+
+button:hover{
+    background-color: green;
+    padding: 20px;
+}

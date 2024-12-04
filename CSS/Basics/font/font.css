@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+ /* p{ */
+    /* font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+   */
+
+
+   
+   *{
+    margin: 0;
+    padding: ;
+   }
+
+   p{
+    background-color: red;
+     /* margin: 10px; */ 
+     /* margin: 20px 40px; */ 
+     /* margin: 20px 40px 80px; */
+    /* margin: 10px 20px 30px 40px ; */
+
+   }
+
+
+
+
+
+
+  /* div{  */
+    /* height: 200px;
+    width: 200px; */
+     /* border: 2px solid red;  */
+    /* border-width: 2px 5px10px,20px; */
+    /* border-width: 2px 5px; */
+    
+    /* border-style: solid; */
+    /* border-color: red; */
+    /* border-width: 2px 5px 20px; */
+
+    /* border-color: red; */
+    /* border-bottom: 2px solid red; */
+    /* border-top-style: dotted;
+    border-top-color: black;
+    border-right-style: dashed;
+    border-right-color: red;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-bottom-width: 20px; */ 
+
+  /* } */
+
+  /* div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    margin: auto;
+    /* border-radius: 10px 30px 60px 90px; */
+    /* border-radius:100px 100px ; */
+    /* background-color: aqua; */
+     border-radius: 30px  30px; 
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 20px; */
+    /* background-color: yellowgreen;
+    background-image: url(https://cdn.pixabay.com/photo/2024/05/31/09/37/living-room-8800183_960_720.jpg);
+    background-size: 100px 100px; */
+     /* background-repeat: repeat-x;
+    background-repeat: repeat-y; */
+    /* background-repeat: no-repeat;
+    background-blend-mode: lighten; */
+     
+
+  } 

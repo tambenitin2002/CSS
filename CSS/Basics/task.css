@@ -1,0 +1,21 @@
+div{
+    height: 500px;
+    width: 300px;
+    background-color: purple;
+    border-radius: 10px;
+    display: flex;
+}
+
+#container{
+    align-items: center;
+}
+
+h1{
+    justify-content: center;
+}
+
+#a{
+    height: 200px;
+    width: 300px;
+    
+}

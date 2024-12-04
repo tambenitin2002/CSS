@@ -1,0 +1,43 @@
+section {
+    height: 90vh;
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    height: 80%;
+    width: 80%;
+    background: white;
+    animation: image 5s infinite linear;
+}
+
+@keyframes image {
+    0%{
+        background: url(https://cdn.pixabay.com/photo/2023/10/30/05/19/sunflowers-8351807_1280.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        animation-delay: 1s;
+    }
+    30%{
+        background: url(https://cdn.pixabay.com/photo/2024/02/19/08/49/hibiscus-8582876_1280.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        animation-delay: 1s;
+    }
+    70%{
+        background: url(https://cdn.pixabay.com/photo/2023/10/30/05/19/sunflowers-8351807_1280.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        animation-delay: 1s;
+    }
+    100%{
+        background: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        animation-delay: 1s;
+        
+    }
+}
